@@ -73,15 +73,15 @@ handleSmallScreens();
 // ScrollTop
 
 $(".about").click(function(){
-  $(".scroll__container").scrollTop(500);
-  });
-
-$(".portfolio").click(function(){
   $(".scroll__container").scrollTop(1000);
   });
 
+$(".portfolio").click(function(){
+  $(".scroll__container").scrollTop(1500);
+  });
+
 $(".contact").click(function(){
-   $(".scroll__container").scrollTop(1500);
+   $(".scroll__container").scrollTop(2000);
    });
   
 
@@ -163,3 +163,5 @@ $(".contact").click(function(){
 
 
 // contact
+
+
