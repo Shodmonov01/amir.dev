@@ -19,6 +19,7 @@ section {
 
 .section_two {
   background-color: #37373d;
+  
 }
 
 .scroll__container {
@@ -33,21 +34,46 @@ section {
     
 }
 
+.background {
+  background-image: url(/JYUMckS.jpeg);
+  width: 500px;
+}
+
 .section_four {
   z-index: -1;
   background-color: #37373d
   /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M 0%2c239 C 57.6%2c216 172.8%2c130.2 288%2c124 C 403.2%2c117.8 460.8%2c222.6 576%2c208 C 691.2%2c193.4 748.8%2c40 864%2c51 C 979.2%2c62 1036.8%2c247.6 1152%2c263 C 1267.2%2c278.4 1382.4%2c155 1440%2c128L1440 560L0 560z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c528 C 96%2c493 288%2c355 480%2c353 C 672%2c351 768%2c523.2 960%2c518 C 1152%2c512.8 1344%2c365.2 1440%2c327L1440 560L0 560z' fill='%232264ab'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
 }
 
+.info__title {
+  color: #37373d;
+  position: absolute;
+  font-size: 3vw;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: sans-serif;
+  /* -webkit-text-stroke: 0.3vw #383d52; */
+  text-transform: uppercase, capitalize;
+  
+}
 
+
+.info__title h4 {
+  /* font-size: 20px ;
+  justify-content: center;
+  align-items: center;
+  top: 60%;
+  left: 50%; */
+  text-align: center;
+}
 
 
 /* Animation-text */
 
 .hero__heading {
-  /* display: flex;
-	flex-wrap: wrap;
-	justify-content: center; */
+  
+
 }
 
 .animation-text {
@@ -64,10 +90,12 @@ section {
     -webkit-text-stroke: 0.3vw #383d52;
     text-transform: uppercase, capitalize; */
 
-  
+    /* border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,-20px -20px 60px #ffffff; */
     position: absolute;
     font-size: 9vw;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: sans-serif;
