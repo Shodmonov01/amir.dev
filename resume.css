@@ -238,7 +238,7 @@ h3 {
 }
 
 .resume .func h3 i {
-  color: #283593;
+  color: #37373d;
   background: #007fd4;
   width: 42px;
   height: 42px;
@@ -302,7 +302,7 @@ h3 {
 .resume .func .edu ul li:first-of-type::before {
   width: 10px;
   height: 10px;
-  left: 1px;
+  left: -1px;
 }
 
 .resume .func .work ul li:last-of-type,
@@ -331,7 +331,7 @@ h3 {
   border: 3px solid #ffffff;
   background: #007fd4;
   border-radius: 50%;
-  left: 3px;
+  left: 0px;
   z-index: 1;
 }
 
@@ -354,18 +354,30 @@ h3 {
   background: #37373d;
   padding: 15px;
   margin: 0 4% 15px 0;
+  border-radius: 50px;
+  background: #37373d;
+  box-shadow:  20px 20px 60px #2f2f34,
+             -20px -20px 60px #3f3f46;
 }
 
 .resume .func .edu {
   width: 48%;
   background: #37373d;
   padding: 15px;
+  border-radius: 50px;
+background: #37373d;
+box-shadow:  20px 20px 60px #2f2f34,
+             -20px -20px 60px #3f3f46;
 }
 
 .resume .func .skills-prog {
   clear: both;
   background: #37373d;
   padding: 15px;
+  border-radius: 50px;
+background: #37373d;
+box-shadow:  20px 20px 60px #2f2f34,
+             -20px -20px 60px #3f3f46;
 }
 
 .resume .func .skills-prog ul {
